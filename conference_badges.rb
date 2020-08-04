@@ -23,5 +23,5 @@ end
 
 def printer
   puts badges
-  puts assign_rooms
+  puts rooms
 end
