@@ -33,7 +33,6 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   %w(attendees).each_with_index { |name, index|
   attendees[name] = index
   }
