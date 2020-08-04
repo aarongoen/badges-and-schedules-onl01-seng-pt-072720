@@ -23,25 +23,25 @@ end
 #   end
 # end
 
-attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-def batch_badge_creator(attendees)
-  count = 1 
-  while attendees <= attendees.length-1 
-    puts "Hello, #{attendees[count]}!, 
-    count += 1
-  end
-end
+# attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+# def batch_badge_creator(attendees)
+#   count = 1 
+#   while attendees <= attendees.length-1 
+#     puts "Hello, #{attendees[count]}!, 
+#     count += 1
+#   end
+# end
 
-def assign_rooms(attendees)
-  %w(attendees).each_with_index { |name, index|
-  attendees[name] = index
-  }
-  end
+# def assign_rooms(attendees)
+#   %w(attendees).each_with_index { |name, index|
+#   attendees[name] = index
+#   }
+#   end
 
 # room_assignments = assign_rooms(attendees) 
 
-def printer(attendees)
-  puts badges
-  puts room_assignments
-end 
-end
+# def printer(attendees)
+#   puts badges
+#   puts room_assignments
+# end 
+# end
