@@ -4,7 +4,12 @@ end
 
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-
+def batch_badge_creator(attendees)
+  attendees.each do |name|
+    puts badge_maker(name)
+    # attendees.map { |name| name.to_i }
+  end
+end 
 
 # #I'm not sure this is puts-ing out an array.
 
