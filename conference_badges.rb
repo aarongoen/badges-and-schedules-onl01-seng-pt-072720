@@ -2,12 +2,12 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+# attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_badge_creator(attendees)
-  count = 0
-  attendees.map {|attendee|badge_maker(attendees[count += 1])}
-  end
+# def batch_badge_creator(attendees)
+#   count = 0
+#   attendees.map {|attendee|badge_maker(attendees[count += 1])}
+#   end
 
 # #I'm not sure this is puts-ing out an array.
 
